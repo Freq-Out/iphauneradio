@@ -18,9 +18,11 @@
 		4F42410314EFE0F100E7710D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F42410214EFE0F100E7710D /* AVFoundation.framework */; };
 		4F42411114F0185300E7710D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F42411014F0185300E7710D /* CoreMedia.framework */; };
 		4FB15DE314F16EAC00FB0FD9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FB15DE214F16EAC00FB0FD9 /* MediaPlayer.framework */; };
+		F836A7D716DA6FD400A5A0D5 /* Base.png in Resources */ = {isa = PBXBuildFile; fileRef = F836A7D616DA6FD400A5A0D5 /* Base.png */; };
+		F836A7DB16DA72A900A5A0D5 /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = F836A7DA16DA72A900A5A0D5 /* icon57.png */; };
+		F836A7DD16DA730400A5A0D5 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = F836A7DC16DA730400A5A0D5 /* icon114.png */; };
 		F873504316D82312007A3DF5 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F873504116D82312007A3DF5 /* pause.png */; };
 		F873504416D82312007A3DF5 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F873504216D82312007A3DF5 /* play.png */; };
-		F8B414AC16D81998004C8377 /* Base.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B414AB16D81998004C8377 /* Base.png */; };
 		F8B414AE16D81C7F004C8377 /* phaune-square.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B414AD16D81C7F004C8377 /* phaune-square.png */; };
 /* End PBXBuildFile section */
 
@@ -41,9 +43,12 @@
 		4F42410214EFE0F100E7710D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4F42411014F0185300E7710D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		4FB15DE214F16EAC00FB0FD9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F836A7D616DA6FD400A5A0D5 /* Base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Base.png; sourceTree = "<group>"; };
+		F836A7D816DA708100A5A0D5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F836A7DA16DA72A900A5A0D5 /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		F836A7DC16DA730400A5A0D5 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
 		F873504116D82312007A3DF5 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
 		F873504216D82312007A3DF5 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
-		F8B414AB16D81998004C8377 /* Base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base.png; path = ../../../Desktop/Base.png; sourceTree = "<group>"; };
 		F8B414AD16D81C7F004C8377 /* phaune-square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phaune-square.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +72,9 @@
 		4F4240D614EFE08C00E7710D = {
 			isa = PBXGroup;
 			children = (
+				F836A7DC16DA730400A5A0D5 /* icon114.png */,
+				F836A7DA16DA72A900A5A0D5 /* icon57.png */,
+				F836A7D816DA708100A5A0D5 /* Default.png */,
 				4F4240EB14EFE08D00E7710D /* HLS-iPhone */,
 				4F4240E414EFE08D00E7710D /* Frameworks */,
 				4F4240E214EFE08D00E7710D /* Products */,
@@ -124,7 +132,7 @@
 			children = (
 				F873504116D82312007A3DF5 /* pause.png */,
 				F873504216D82312007A3DF5 /* play.png */,
-				F8B414AB16D81998004C8377 /* Base.png */,
+				F836A7D616DA6FD400A5A0D5 /* Base.png */,
 				F8B414AD16D81C7F004C8377 /* phaune-square.png */,
 			);
 			name = Resources;
@@ -182,10 +190,12 @@
 			files = (
 				4F4240F014EFE08E00E7710D /* InfoPlist.strings in Resources */,
 				4F4240FC14EFE08E00E7710D /* ViewController.xib in Resources */,
-				F8B414AC16D81998004C8377 /* Base.png in Resources */,
 				F8B414AE16D81C7F004C8377 /* phaune-square.png in Resources */,
 				F873504316D82312007A3DF5 /* pause.png in Resources */,
 				F873504416D82312007A3DF5 /* play.png in Resources */,
+				F836A7D716DA6FD400A5A0D5 /* Base.png in Resources */,
+				F836A7DB16DA72A900A5A0D5 /* icon57.png in Resources */,
+				F836A7DD16DA730400A5A0D5 /* icon114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
