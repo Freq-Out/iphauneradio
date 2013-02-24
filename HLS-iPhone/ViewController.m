@@ -14,6 +14,7 @@
 @synthesize toolBar, playButton, pauseButton;
 @synthesize movieDuration;
 @synthesize allowsAirPlay;
+@synthesize playBtn, pauseBtn;
 
 - (void)didReceiveMemoryWarning
 {

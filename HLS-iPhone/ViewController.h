@@ -24,6 +24,8 @@
     IBOutlet UIToolbar *toolBar;
     IBOutlet UIBarButtonItem *playButton;
     IBOutlet UIBarButtonItem *pauseButton;
+    IBOutlet UIButton *playBtn;
+    IBOutlet UIButton *pauseBtn;
 }
 
 @property (nonatomic) BOOL *allowsAirPlay;
@@ -32,6 +34,8 @@
 @property (retain) IBOutlet UIToolbar *toolBar;
 @property (retain) IBOutlet UIBarButtonItem *playButton;
 @property (retain) IBOutlet UIBarButtonItem *pauseButton;
+@property (retain) IBOutlet UIButton *playBtn;
+@property (retain) IBOutlet UIButton *pauseBtn;
 @property (nonatomic, assign) CMTime movieDuration;
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object
